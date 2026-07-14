@@ -1,0 +1,38 @@
+scenario:
+  name: osco_fire_search_demo
+  robots: 3
+  start_area: lobby
+  doors:
+    d_operator_upper: open
+    d_catering_upper_1: open
+    d_catering_upper_2: closed
+    d_museum_upper_1: open
+    d_museum_upper_2: open
+    d_storage4_middle: closed
+    d_service_middle: open
+    d_storage3_middle: open
+    d_vip_waiting_middle: open
+    d_men_restroom_middle: open
+    d_exhibition1_middle: open
+    d_exhibition2_middle: open
+    d_women_restroom_middle: closed
+  hazards:
+    - room: museum_hall
+      type: fire
+      severity: high
+    - room: service_room
+      type: smoke
+      severity: medium
+    - room: exhibition2
+      type: smoke
+      severity: low
+  survivors:
+    - room: operator_office
+      count: 1
+    - room: exhibition1
+      count: 1
+  expected_behaviors:
+    - avoid_closed_doors
+    - split_room_assignments
+    - keep_multi_hop_connectivity
+    - replan_after_fire_detection

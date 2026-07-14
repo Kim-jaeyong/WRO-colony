@@ -1,0 +1,353 @@
+doors:
+  - id: d_operator_upper
+    wall_id: upper_corridor_south
+    gap_px: [105, 145]
+    width_m: 2.0
+    connects: [upper_corridor, operator_office]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_catering_upper_1
+    wall_id: upper_corridor_south
+    gap_px: [270, 315]
+    width_m: 2.25
+    connects: [upper_corridor, catering]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_catering_upper_2
+    wall_id: upper_corridor_south
+    gap_px: [470, 515]
+    width_m: 2.25
+    connects: [upper_corridor, catering]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_museum_upper_1
+    wall_id: upper_corridor_south
+    gap_px: [725, 770]
+    width_m: 2.25
+    connects: [upper_corridor, museum_hall]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_museum_upper_2
+    wall_id: upper_corridor_south
+    gap_px: [970, 1015]
+    width_m: 2.25
+    connects: [upper_corridor, museum_hall]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_operator_catering
+    wall_id: operator_east
+    gap_px: [350, 390]
+    width_m: 2.0
+    connects: [operator_office, catering]
+    default_state: open
+    dynamic: true
+    confidence: medium
+  - id: d_meeting_operator
+    wall_id: operator_south
+    gap_px: [105, 145]
+    width_m: 2.0
+    connects: [operator_office, meeting_room]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_operator_lower_corridor
+    wall_id: operator_south
+    gap_px: [265, 305]
+    width_m: 2.0
+    connects: [operator_office, middle_corridor]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_meeting_north
+    wall_id: meeting_north
+    gap_px: [120, 155]
+    width_m: 1.75
+    connects: [operator_office, meeting_room]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_catering_museum
+    wall_id: catering_east
+    gap_px: [320, 360]
+    width_m: 2.0
+    connects: [catering, museum_hall]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_catering_middle
+    wall_id: catering_south
+    gap_px: [575, 615]
+    width_m: 2.0
+    connects: [catering, middle_corridor]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_museum_middle_1
+    wall_id: museum_south
+    gap_px: [815, 860]
+    width_m: 2.25
+    connects: [museum_hall, middle_corridor]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_museum_middle_2
+    wall_id: museum_south
+    gap_px: [990, 1040]
+    width_m: 2.5
+    connects: [museum_hall, middle_corridor]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_storage4_service
+    wall_id: storage4_east
+    gap_px: [520, 555]
+    width_m: 1.75
+    connects: [storage4, service_room]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_storage4_middle
+    wall_id: storage4_south
+    gap_px: [395, 435]
+    width_m: 2.0
+    connects: [storage4, middle_corridor]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_service_museum
+    wall_id: service_east
+    gap_px: [515, 555]
+    width_m: 2.0
+    connects: [service_room, museum_hall]
+    default_state: open
+    dynamic: true
+    confidence: medium
+  - id: d_service_middle
+    wall_id: service_south
+    gap_px: [615, 650]
+    width_m: 1.75
+    connects: [service_room, middle_corridor]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_mdf_storage3
+    wall_id: mdf_storage_divider
+    gap_px: [745, 780]
+    width_m: 1.75
+    connects: [mdf_room, storage3]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_storage3_middle
+    wall_id: storage3_south
+    gap_px: [700, 735]
+    width_m: 1.75
+    connects: [storage3, middle_corridor]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_storage3_museum
+    wall_id: storage3_east
+    gap_px: [515, 550]
+    width_m: 1.75
+    connects: [storage3, museum_hall]
+    default_state: open
+    dynamic: true
+    confidence: medium
+  - id: d_vip_waiting_middle
+    wall_id: middle_corridor_south
+    gap_px: [220, 260]
+    width_m: 2.0
+    connects: [middle_corridor, vip_waiting]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_men_restroom_middle
+    wall_id: middle_corridor_south
+    gap_px: [420, 460]
+    width_m: 2.0
+    connects: [middle_corridor, mens_restroom]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_exhibition1_middle
+    wall_id: middle_corridor_south
+    gap_px: [560, 600]
+    width_m: 2.0
+    connects: [middle_corridor, exhibition1]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_exhibition2_middle
+    wall_id: middle_corridor_south
+    gap_px: [750, 790]
+    width_m: 2.0
+    connects: [middle_corridor, exhibition2]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_women_restroom_middle
+    wall_id: middle_corridor_south
+    gap_px: [930, 975]
+    width_m: 2.25
+    connects: [middle_corridor, womens_restroom]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_vip_waiting_east
+    wall_id: vip_block_east
+    gap_px: [700, 740]
+    width_m: 2.0
+    connects: [vip_waiting, south_corridor]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_vip_security_east
+    wall_id: vip_block_east
+    gap_px: [810, 850]
+    width_m: 2.0
+    connects: [vip_security, south_corridor]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_guard_east
+    wall_id: vip_block_east
+    gap_px: [900, 935]
+    width_m: 1.75
+    connects: [guard_room, south_corridor]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_vip_waiting_security
+    wall_id: vip_waiting_security_divider
+    gap_px: [265, 300]
+    width_m: 1.75
+    connects: [vip_waiting, vip_security]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_vip_security_guard
+    wall_id: vip_security_guard_divider
+    gap_px: [260, 295]
+    width_m: 1.75
+    connects: [vip_security, guard_room]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_guard_south
+    wall_id: guard_south
+    gap_px: [250, 290]
+    width_m: 2.0
+    connects: [guard_room, south_support]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_mens_exhibition1
+    wall_id: mens_east
+    gap_px: [700, 740]
+    width_m: 2.0
+    connects: [mens_restroom, exhibition1]
+    default_state: open
+    dynamic: true
+    confidence: medium
+  - id: d_mens_south
+    wall_id: mens_exhibition_south
+    gap_px: [420, 460]
+    width_m: 2.0
+    connects: [mens_restroom, south_corridor]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_exhibition1_south
+    wall_id: mens_exhibition_south
+    gap_px: [575, 615]
+    width_m: 2.0
+    connects: [exhibition1, south_corridor]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_exhibition2_women
+    wall_id: exhibition2_east
+    gap_px: [760, 800]
+    width_m: 2.0
+    connects: [exhibition2, womens_restroom]
+    default_state: open
+    dynamic: true
+    confidence: medium
+  - id: d_exhibition2_south
+    wall_id: exhibition2_south
+    gap_px: [720, 755]
+    width_m: 1.75
+    connects: [exhibition2, south_corridor]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_women_lobby
+    wall_id: womens_south
+    gap_px: [930, 975]
+    width_m: 2.25
+    connects: [womens_restroom, lobby]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_accessible_male
+    wall_id: accessible_north
+    gap_px: [455, 495]
+    width_m: 2.0
+    connects: [south_corridor, accessible_male]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_accessible_female
+    wall_id: accessible_north
+    gap_px: [650, 690]
+    width_m: 2.0
+    connects: [south_corridor, accessible_female]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_accessible_lobby
+    wall_id: accessible_north
+    gap_px: [770, 805]
+    width_m: 1.75
+    connects: [south_corridor, lobby]
+    default_state: open
+    dynamic: true
+    confidence: medium
+  - id: d_accessible_between
+    wall_id: accessible_mid
+    gap_px: [990, 1025]
+    width_m: 1.75
+    connects: [accessible_male, accessible_female]
+    default_state: open
+    dynamic: true
+    confidence: low
+  - id: d_accessible_to_lobby
+    wall_id: accessible_east
+    gap_px: [990, 1025]
+    width_m: 1.75
+    connects: [accessible_female, lobby]
+    default_state: open
+    dynamic: true
+    confidence: medium
+  - id: d_lobby_upper
+    wall_id: lobby_west
+    gap_px: [865, 905]
+    width_m: 2.0
+    connects: [south_corridor, lobby]
+    default_state: open
+    dynamic: true
+    confidence: high
+  - id: d_lobby_accessible
+    wall_id: lobby_west
+    gap_px: [990, 1030]
+    width_m: 2.0
+    connects: [accessible_female, lobby]
+    default_state: open
+    dynamic: true
+    confidence: high

@@ -1,0 +1,11 @@
+{
+  "world_name": "osco_scenario_world",
+  "map_width_m": 56.25,
+  "map_height_m": 53.75,
+  "wall_segments": 91,
+  "columns_or_cores": 40,
+  "boundary_boxes": 5,
+  "doors_in_json": 44,
+  "door_models_created": 0,
+  "note": "Door gaps exist, but door panels are added in the next step."
+}

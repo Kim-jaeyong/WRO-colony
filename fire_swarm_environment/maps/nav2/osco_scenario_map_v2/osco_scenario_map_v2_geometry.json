@@ -1,0 +1,2372 @@
+{
+  "name": "OSCO 1F scenario-ready map v2",
+  "resolution_m_per_pixel": 0.05,
+  "source_crop_pixels": {
+    "x": 45,
+    "y": 205,
+    "width": 1125,
+    "height": 1075
+  },
+  "accuracy_class": "dimensionally anchored reconstruction",
+  "notes": [
+    "Built from the public architectural floor plan.",
+    "Major room boundaries and corridor topology are preserved.",
+    "Furniture, labels, equipment symbols, dimensions and ducts are omitted.",
+    "Doors are stored separately and represented as gaps in the static map.",
+    "Movable wall is excluded from the static map and stored as a dynamic object."
+  ],
+  "rooms": [
+    {
+      "id": "operator_office",
+      "label": "운영자 사무실",
+      "bbox_px": [
+        5,
+        45,
+        355,
+        480
+      ],
+      "bbox_m": [
+        0.25,
+        29.75,
+        17.75,
+        51.5
+      ],
+      "room_type": "searchable",
+      "confidence": "high"
+    },
+    {
+      "id": "meeting_room",
+      "label": "회의실",
+      "bbox_px": [
+        5,
+        405,
+        205,
+        480
+      ],
+      "bbox_m": [
+        0.25,
+        29.75,
+        10.25,
+        33.5
+      ],
+      "room_type": "searchable",
+      "confidence": "high"
+    },
+    {
+      "id": "catering",
+      "label": "케이터링",
+      "bbox_px": [
+        355,
+        45,
+        675,
+        480
+      ],
+      "bbox_m": [
+        17.75,
+        29.75,
+        33.75,
+        51.5
+      ],
+      "room_type": "searchable",
+      "confidence": "high"
+    },
+    {
+      "id": "museum_hall",
+      "label": "미술관",
+      "bbox_px": [
+        675,
+        45,
+        1120,
+        575
+      ],
+      "bbox_m": [
+        33.75,
+        25.0,
+        56.0,
+        51.5
+      ],
+      "room_type": "searchable",
+      "confidence": "high"
+    },
+    {
+      "id": "storage4",
+      "label": "창고 #4",
+      "bbox_px": [
+        355,
+        480,
+        505,
+        575
+      ],
+      "bbox_m": [
+        17.75,
+        25.0,
+        25.25,
+        29.75
+      ],
+      "room_type": "searchable",
+      "confidence": "high"
+    },
+    {
+      "id": "service_room",
+      "label": "서비스실",
+      "bbox_px": [
+        505,
+        480,
+        675,
+        575
+      ],
+      "bbox_m": [
+        25.25,
+        25.0,
+        33.75,
+        29.75
+      ],
+      "room_type": "searchable",
+      "confidence": "high"
+    },
+    {
+      "id": "mdf_room",
+      "label": "MDF실",
+      "bbox_px": [
+        675,
+        480,
+        830,
+        525
+      ],
+      "bbox_m": [
+        33.75,
+        27.5,
+        41.5,
+        29.75
+      ],
+      "room_type": "searchable",
+      "confidence": "high"
+    },
+    {
+      "id": "storage3",
+      "label": "창고 #3",
+      "bbox_px": [
+        675,
+        525,
+        830,
+        575
+      ],
+      "bbox_m": [
+        33.75,
+        25.0,
+        41.5,
+        27.5
+      ],
+      "room_type": "searchable",
+      "confidence": "high"
+    },
+    {
+      "id": "vip_waiting",
+      "label": "VIP 대기실",
+      "bbox_px": [
+        195,
+        655,
+        355,
+        735
+      ],
+      "bbox_m": [
+        9.75,
+        17.0,
+        17.75,
+        21.0
+      ],
+      "room_type": "searchable",
+      "confidence": "high"
+    },
+    {
+      "id": "vip_security",
+      "label": "VIP 라운지/보안",
+      "bbox_px": [
+        195,
+        735,
+        355,
+        825
+      ],
+      "bbox_m": [
+        9.75,
+        12.5,
+        17.75,
+        17.0
+      ],
+      "room_type": "searchable",
+      "confidence": "high"
+    },
+    {
+      "id": "guard_room",
+      "label": "탕비·지원실",
+      "bbox_px": [
+        195,
+        825,
+        355,
+        945
+      ],
+      "bbox_m": [
+        9.75,
+        6.5,
+        17.75,
+        12.5
+      ],
+      "room_type": "searchable",
+      "confidence": "high"
+    },
+    {
+      "id": "mens_restroom",
+      "label": "남자 화장실",
+      "bbox_px": [
+        355,
+        655,
+        505,
+        825
+      ],
+      "bbox_m": [
+        17.75,
+        12.5,
+        25.25,
+        21.0
+      ],
+      "room_type": "searchable",
+      "confidence": "high"
+    },
+    {
+      "id": "exhibition1",
+      "label": "상설전시장 #1",
+      "bbox_px": [
+        505,
+        655,
+        675,
+        825
+      ],
+      "bbox_m": [
+        25.25,
+        12.5,
+        33.75,
+        21.0
+      ],
+      "room_type": "searchable",
+      "confidence": "high"
+    },
+    {
+      "id": "exhibition2",
+      "label": "상설전시장 #2",
+      "bbox_px": [
+        675,
+        655,
+        830,
+        825
+      ],
+      "bbox_m": [
+        33.75,
+        12.5,
+        41.5,
+        21.0
+      ],
+      "room_type": "searchable",
+      "confidence": "high"
+    },
+    {
+      "id": "womens_restroom",
+      "label": "여자 화장실",
+      "bbox_px": [
+        830,
+        655,
+        1120,
+        945
+      ],
+      "bbox_m": [
+        41.5,
+        6.5,
+        56.0,
+        21.0
+      ],
+      "room_type": "searchable",
+      "confidence": "high"
+    },
+    {
+      "id": "accessible_male",
+      "label": "장애인화장실(남)",
+      "bbox_px": [
+        355,
+        945,
+        590,
+        1070
+      ],
+      "bbox_m": [
+        17.75,
+        0.25,
+        29.5,
+        6.5
+      ],
+      "room_type": "searchable",
+      "confidence": "high"
+    },
+    {
+      "id": "accessible_female",
+      "label": "장애인화장실(여)",
+      "bbox_px": [
+        590,
+        945,
+        830,
+        1070
+      ],
+      "bbox_m": [
+        29.5,
+        0.25,
+        41.5,
+        6.5
+      ],
+      "room_type": "searchable",
+      "confidence": "high"
+    },
+    {
+      "id": "lobby",
+      "label": "로비",
+      "bbox_px": [
+        830,
+        945,
+        1120,
+        1070
+      ],
+      "bbox_m": [
+        41.5,
+        0.25,
+        56.0,
+        6.5
+      ],
+      "room_type": "searchable",
+      "confidence": "high"
+    }
+  ],
+  "walls": [
+    {
+      "id": "upper_corridor_south",
+      "type": "horizontal",
+      "p1_px": [
+        5,
+        45
+      ],
+      "p2_px": [
+        1120,
+        45
+      ],
+      "gaps_px": [
+        [
+          105,
+          145
+        ],
+        [
+          270,
+          315
+        ],
+        [
+          470,
+          515
+        ],
+        [
+          725,
+          770
+        ],
+        [
+          970,
+          1015
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "operator_east",
+      "type": "vertical",
+      "p1_px": [
+        355,
+        45
+      ],
+      "p2_px": [
+        355,
+        480
+      ],
+      "gaps_px": [
+        [
+          350,
+          390
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "operator_south",
+      "type": "horizontal",
+      "p1_px": [
+        5,
+        480
+      ],
+      "p2_px": [
+        355,
+        480
+      ],
+      "gaps_px": [
+        [
+          105,
+          145
+        ],
+        [
+          265,
+          305
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "meeting_north",
+      "type": "horizontal",
+      "p1_px": [
+        5,
+        405
+      ],
+      "p2_px": [
+        205,
+        405
+      ],
+      "gaps_px": [
+        [
+          120,
+          155
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "meeting_east",
+      "type": "vertical",
+      "p1_px": [
+        205,
+        405
+      ],
+      "p2_px": [
+        205,
+        480
+      ],
+      "gaps_px": [],
+      "confidence": "high"
+    },
+    {
+      "id": "catering_west",
+      "type": "vertical",
+      "p1_px": [
+        355,
+        45
+      ],
+      "p2_px": [
+        355,
+        480
+      ],
+      "gaps_px": [
+        [
+          350,
+          390
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "catering_east",
+      "type": "vertical",
+      "p1_px": [
+        675,
+        45
+      ],
+      "p2_px": [
+        675,
+        480
+      ],
+      "gaps_px": [
+        [
+          320,
+          360
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "catering_south",
+      "type": "horizontal",
+      "p1_px": [
+        355,
+        480
+      ],
+      "p2_px": [
+        675,
+        480
+      ],
+      "gaps_px": [
+        [
+          575,
+          615
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "museum_west",
+      "type": "vertical",
+      "p1_px": [
+        675,
+        45
+      ],
+      "p2_px": [
+        675,
+        575
+      ],
+      "gaps_px": [
+        [
+          320,
+          360
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "museum_east",
+      "type": "vertical",
+      "p1_px": [
+        1120,
+        45
+      ],
+      "p2_px": [
+        1120,
+        575
+      ],
+      "gaps_px": [],
+      "confidence": "high"
+    },
+    {
+      "id": "museum_south",
+      "type": "horizontal",
+      "p1_px": [
+        675,
+        575
+      ],
+      "p2_px": [
+        1120,
+        575
+      ],
+      "gaps_px": [
+        [
+          815,
+          860
+        ],
+        [
+          990,
+          1040
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "storage4_west",
+      "type": "vertical",
+      "p1_px": [
+        355,
+        480
+      ],
+      "p2_px": [
+        355,
+        575
+      ],
+      "gaps_px": [],
+      "confidence": "high"
+    },
+    {
+      "id": "storage4_east",
+      "type": "vertical",
+      "p1_px": [
+        505,
+        480
+      ],
+      "p2_px": [
+        505,
+        575
+      ],
+      "gaps_px": [
+        [
+          520,
+          555
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "storage4_south",
+      "type": "horizontal",
+      "p1_px": [
+        355,
+        575
+      ],
+      "p2_px": [
+        505,
+        575
+      ],
+      "gaps_px": [
+        [
+          395,
+          435
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "service_east",
+      "type": "vertical",
+      "p1_px": [
+        675,
+        480
+      ],
+      "p2_px": [
+        675,
+        575
+      ],
+      "gaps_px": [
+        [
+          515,
+          555
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "service_south",
+      "type": "horizontal",
+      "p1_px": [
+        505,
+        575
+      ],
+      "p2_px": [
+        675,
+        575
+      ],
+      "gaps_px": [
+        [
+          615,
+          650
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "mdf_west",
+      "type": "vertical",
+      "p1_px": [
+        675,
+        480
+      ],
+      "p2_px": [
+        675,
+        575
+      ],
+      "gaps_px": [],
+      "confidence": "high"
+    },
+    {
+      "id": "storage3_east",
+      "type": "vertical",
+      "p1_px": [
+        830,
+        480
+      ],
+      "p2_px": [
+        830,
+        575
+      ],
+      "gaps_px": [
+        [
+          515,
+          550
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "mdf_storage_divider",
+      "type": "horizontal",
+      "p1_px": [
+        675,
+        525
+      ],
+      "p2_px": [
+        830,
+        525
+      ],
+      "gaps_px": [
+        [
+          745,
+          780
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "storage3_south",
+      "type": "horizontal",
+      "p1_px": [
+        675,
+        575
+      ],
+      "p2_px": [
+        830,
+        575
+      ],
+      "gaps_px": [
+        [
+          700,
+          735
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "middle_corridor_south",
+      "type": "horizontal",
+      "p1_px": [
+        5,
+        655
+      ],
+      "p2_px": [
+        1120,
+        655
+      ],
+      "gaps_px": [
+        [
+          220,
+          260
+        ],
+        [
+          420,
+          460
+        ],
+        [
+          560,
+          600
+        ],
+        [
+          750,
+          790
+        ],
+        [
+          930,
+          975
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "vip_block_west",
+      "type": "vertical",
+      "p1_px": [
+        195,
+        655
+      ],
+      "p2_px": [
+        195,
+        945
+      ],
+      "gaps_px": [],
+      "confidence": "high"
+    },
+    {
+      "id": "vip_block_east",
+      "type": "vertical",
+      "p1_px": [
+        355,
+        655
+      ],
+      "p2_px": [
+        355,
+        945
+      ],
+      "gaps_px": [
+        [
+          700,
+          740
+        ],
+        [
+          810,
+          850
+        ],
+        [
+          900,
+          935
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "vip_waiting_security_divider",
+      "type": "horizontal",
+      "p1_px": [
+        195,
+        735
+      ],
+      "p2_px": [
+        355,
+        735
+      ],
+      "gaps_px": [
+        [
+          265,
+          300
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "vip_security_guard_divider",
+      "type": "horizontal",
+      "p1_px": [
+        195,
+        825
+      ],
+      "p2_px": [
+        355,
+        825
+      ],
+      "gaps_px": [
+        [
+          260,
+          295
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "guard_south",
+      "type": "horizontal",
+      "p1_px": [
+        195,
+        945
+      ],
+      "p2_px": [
+        355,
+        945
+      ],
+      "gaps_px": [
+        [
+          250,
+          290
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "mens_west",
+      "type": "vertical",
+      "p1_px": [
+        355,
+        655
+      ],
+      "p2_px": [
+        355,
+        825
+      ],
+      "gaps_px": [],
+      "confidence": "high"
+    },
+    {
+      "id": "mens_east",
+      "type": "vertical",
+      "p1_px": [
+        505,
+        655
+      ],
+      "p2_px": [
+        505,
+        825
+      ],
+      "gaps_px": [
+        [
+          700,
+          740
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "exhibition1_east",
+      "type": "vertical",
+      "p1_px": [
+        675,
+        655
+      ],
+      "p2_px": [
+        675,
+        825
+      ],
+      "gaps_px": [
+        [
+          700,
+          740
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "mens_exhibition_south",
+      "type": "horizontal",
+      "p1_px": [
+        355,
+        825
+      ],
+      "p2_px": [
+        675,
+        825
+      ],
+      "gaps_px": [
+        [
+          420,
+          460
+        ],
+        [
+          575,
+          615
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "exhibition2_west",
+      "type": "vertical",
+      "p1_px": [
+        675,
+        655
+      ],
+      "p2_px": [
+        675,
+        825
+      ],
+      "gaps_px": [
+        [
+          700,
+          740
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "exhibition2_east",
+      "type": "vertical",
+      "p1_px": [
+        830,
+        655
+      ],
+      "p2_px": [
+        830,
+        945
+      ],
+      "gaps_px": [
+        [
+          760,
+          800
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "exhibition2_south",
+      "type": "horizontal",
+      "p1_px": [
+        675,
+        825
+      ],
+      "p2_px": [
+        830,
+        825
+      ],
+      "gaps_px": [
+        [
+          720,
+          755
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "womens_west",
+      "type": "vertical",
+      "p1_px": [
+        830,
+        655
+      ],
+      "p2_px": [
+        830,
+        945
+      ],
+      "gaps_px": [
+        [
+          760,
+          800
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "womens_east",
+      "type": "vertical",
+      "p1_px": [
+        1120,
+        655
+      ],
+      "p2_px": [
+        1120,
+        945
+      ],
+      "gaps_px": [],
+      "confidence": "high"
+    },
+    {
+      "id": "womens_south",
+      "type": "horizontal",
+      "p1_px": [
+        830,
+        945
+      ],
+      "p2_px": [
+        1120,
+        945
+      ],
+      "gaps_px": [
+        [
+          930,
+          975
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "accessible_north",
+      "type": "horizontal",
+      "p1_px": [
+        355,
+        945
+      ],
+      "p2_px": [
+        830,
+        945
+      ],
+      "gaps_px": [
+        [
+          455,
+          495
+        ],
+        [
+          650,
+          690
+        ],
+        [
+          770,
+          805
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "accessible_west",
+      "type": "vertical",
+      "p1_px": [
+        355,
+        945
+      ],
+      "p2_px": [
+        355,
+        1070
+      ],
+      "gaps_px": [],
+      "confidence": "high"
+    },
+    {
+      "id": "accessible_mid",
+      "type": "vertical",
+      "p1_px": [
+        590,
+        945
+      ],
+      "p2_px": [
+        590,
+        1070
+      ],
+      "gaps_px": [
+        [
+          990,
+          1025
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "accessible_east",
+      "type": "vertical",
+      "p1_px": [
+        830,
+        945
+      ],
+      "p2_px": [
+        830,
+        1070
+      ],
+      "gaps_px": [
+        [
+          990,
+          1025
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "lobby_west",
+      "type": "vertical",
+      "p1_px": [
+        830,
+        825
+      ],
+      "p2_px": [
+        830,
+        1070
+      ],
+      "gaps_px": [
+        [
+          865,
+          905
+        ],
+        [
+          990,
+          1030
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "lobby_east",
+      "type": "vertical",
+      "p1_px": [
+        1120,
+        945
+      ],
+      "p2_px": [
+        1120,
+        1070
+      ],
+      "gaps_px": [],
+      "confidence": "high"
+    }
+  ],
+  "doors": [
+    {
+      "id": "d_operator_upper",
+      "wall_id": "upper_corridor_south",
+      "gap_px": [
+        105,
+        145
+      ],
+      "width_m": 2.0,
+      "connects": [
+        "upper_corridor",
+        "operator_office"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_catering_upper_1",
+      "wall_id": "upper_corridor_south",
+      "gap_px": [
+        270,
+        315
+      ],
+      "width_m": 2.25,
+      "connects": [
+        "upper_corridor",
+        "catering"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_catering_upper_2",
+      "wall_id": "upper_corridor_south",
+      "gap_px": [
+        470,
+        515
+      ],
+      "width_m": 2.25,
+      "connects": [
+        "upper_corridor",
+        "catering"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_museum_upper_1",
+      "wall_id": "upper_corridor_south",
+      "gap_px": [
+        725,
+        770
+      ],
+      "width_m": 2.25,
+      "connects": [
+        "upper_corridor",
+        "museum_hall"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_museum_upper_2",
+      "wall_id": "upper_corridor_south",
+      "gap_px": [
+        970,
+        1015
+      ],
+      "width_m": 2.25,
+      "connects": [
+        "upper_corridor",
+        "museum_hall"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_operator_catering",
+      "wall_id": "operator_east",
+      "gap_px": [
+        350,
+        390
+      ],
+      "width_m": 2.0,
+      "connects": [
+        "operator_office",
+        "catering"
+      ],
+      "confidence": "medium",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_meeting_operator",
+      "wall_id": "operator_south",
+      "gap_px": [
+        105,
+        145
+      ],
+      "width_m": 2.0,
+      "connects": [
+        "operator_office",
+        "meeting_room"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_operator_lower_corridor",
+      "wall_id": "operator_south",
+      "gap_px": [
+        265,
+        305
+      ],
+      "width_m": 2.0,
+      "connects": [
+        "operator_office",
+        "middle_corridor"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_meeting_north",
+      "wall_id": "meeting_north",
+      "gap_px": [
+        120,
+        155
+      ],
+      "width_m": 1.75,
+      "connects": [
+        "operator_office",
+        "meeting_room"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_catering_museum",
+      "wall_id": "catering_east",
+      "gap_px": [
+        320,
+        360
+      ],
+      "width_m": 2.0,
+      "connects": [
+        "catering",
+        "museum_hall"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_catering_middle",
+      "wall_id": "catering_south",
+      "gap_px": [
+        575,
+        615
+      ],
+      "width_m": 2.0,
+      "connects": [
+        "catering",
+        "middle_corridor"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_museum_middle_1",
+      "wall_id": "museum_south",
+      "gap_px": [
+        815,
+        860
+      ],
+      "width_m": 2.25,
+      "connects": [
+        "museum_hall",
+        "middle_corridor"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_museum_middle_2",
+      "wall_id": "museum_south",
+      "gap_px": [
+        990,
+        1040
+      ],
+      "width_m": 2.5,
+      "connects": [
+        "museum_hall",
+        "middle_corridor"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_storage4_service",
+      "wall_id": "storage4_east",
+      "gap_px": [
+        520,
+        555
+      ],
+      "width_m": 1.75,
+      "connects": [
+        "storage4",
+        "service_room"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_storage4_middle",
+      "wall_id": "storage4_south",
+      "gap_px": [
+        395,
+        435
+      ],
+      "width_m": 2.0,
+      "connects": [
+        "storage4",
+        "middle_corridor"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_service_museum",
+      "wall_id": "service_east",
+      "gap_px": [
+        515,
+        555
+      ],
+      "width_m": 2.0,
+      "connects": [
+        "service_room",
+        "museum_hall"
+      ],
+      "confidence": "medium",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_service_middle",
+      "wall_id": "service_south",
+      "gap_px": [
+        615,
+        650
+      ],
+      "width_m": 1.75,
+      "connects": [
+        "service_room",
+        "middle_corridor"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_mdf_storage3",
+      "wall_id": "mdf_storage_divider",
+      "gap_px": [
+        745,
+        780
+      ],
+      "width_m": 1.75,
+      "connects": [
+        "mdf_room",
+        "storage3"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_storage3_middle",
+      "wall_id": "storage3_south",
+      "gap_px": [
+        700,
+        735
+      ],
+      "width_m": 1.75,
+      "connects": [
+        "storage3",
+        "middle_corridor"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_storage3_museum",
+      "wall_id": "storage3_east",
+      "gap_px": [
+        515,
+        550
+      ],
+      "width_m": 1.75,
+      "connects": [
+        "storage3",
+        "museum_hall"
+      ],
+      "confidence": "medium",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_vip_waiting_middle",
+      "wall_id": "middle_corridor_south",
+      "gap_px": [
+        220,
+        260
+      ],
+      "width_m": 2.0,
+      "connects": [
+        "middle_corridor",
+        "vip_waiting"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_men_restroom_middle",
+      "wall_id": "middle_corridor_south",
+      "gap_px": [
+        420,
+        460
+      ],
+      "width_m": 2.0,
+      "connects": [
+        "middle_corridor",
+        "mens_restroom"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_exhibition1_middle",
+      "wall_id": "middle_corridor_south",
+      "gap_px": [
+        560,
+        600
+      ],
+      "width_m": 2.0,
+      "connects": [
+        "middle_corridor",
+        "exhibition1"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_exhibition2_middle",
+      "wall_id": "middle_corridor_south",
+      "gap_px": [
+        750,
+        790
+      ],
+      "width_m": 2.0,
+      "connects": [
+        "middle_corridor",
+        "exhibition2"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_women_restroom_middle",
+      "wall_id": "middle_corridor_south",
+      "gap_px": [
+        930,
+        975
+      ],
+      "width_m": 2.25,
+      "connects": [
+        "middle_corridor",
+        "womens_restroom"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_vip_waiting_east",
+      "wall_id": "vip_block_east",
+      "gap_px": [
+        700,
+        740
+      ],
+      "width_m": 2.0,
+      "connects": [
+        "vip_waiting",
+        "south_corridor"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_vip_security_east",
+      "wall_id": "vip_block_east",
+      "gap_px": [
+        810,
+        850
+      ],
+      "width_m": 2.0,
+      "connects": [
+        "vip_security",
+        "south_corridor"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_guard_east",
+      "wall_id": "vip_block_east",
+      "gap_px": [
+        900,
+        935
+      ],
+      "width_m": 1.75,
+      "connects": [
+        "guard_room",
+        "south_corridor"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_vip_waiting_security",
+      "wall_id": "vip_waiting_security_divider",
+      "gap_px": [
+        265,
+        300
+      ],
+      "width_m": 1.75,
+      "connects": [
+        "vip_waiting",
+        "vip_security"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_vip_security_guard",
+      "wall_id": "vip_security_guard_divider",
+      "gap_px": [
+        260,
+        295
+      ],
+      "width_m": 1.75,
+      "connects": [
+        "vip_security",
+        "guard_room"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_guard_south",
+      "wall_id": "guard_south",
+      "gap_px": [
+        250,
+        290
+      ],
+      "width_m": 2.0,
+      "connects": [
+        "guard_room",
+        "south_support"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_mens_exhibition1",
+      "wall_id": "mens_east",
+      "gap_px": [
+        700,
+        740
+      ],
+      "width_m": 2.0,
+      "connects": [
+        "mens_restroom",
+        "exhibition1"
+      ],
+      "confidence": "medium",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_mens_south",
+      "wall_id": "mens_exhibition_south",
+      "gap_px": [
+        420,
+        460
+      ],
+      "width_m": 2.0,
+      "connects": [
+        "mens_restroom",
+        "south_corridor"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_exhibition1_south",
+      "wall_id": "mens_exhibition_south",
+      "gap_px": [
+        575,
+        615
+      ],
+      "width_m": 2.0,
+      "connects": [
+        "exhibition1",
+        "south_corridor"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_exhibition2_women",
+      "wall_id": "exhibition2_east",
+      "gap_px": [
+        760,
+        800
+      ],
+      "width_m": 2.0,
+      "connects": [
+        "exhibition2",
+        "womens_restroom"
+      ],
+      "confidence": "medium",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_exhibition2_south",
+      "wall_id": "exhibition2_south",
+      "gap_px": [
+        720,
+        755
+      ],
+      "width_m": 1.75,
+      "connects": [
+        "exhibition2",
+        "south_corridor"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_women_lobby",
+      "wall_id": "womens_south",
+      "gap_px": [
+        930,
+        975
+      ],
+      "width_m": 2.25,
+      "connects": [
+        "womens_restroom",
+        "lobby"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_accessible_male",
+      "wall_id": "accessible_north",
+      "gap_px": [
+        455,
+        495
+      ],
+      "width_m": 2.0,
+      "connects": [
+        "south_corridor",
+        "accessible_male"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_accessible_female",
+      "wall_id": "accessible_north",
+      "gap_px": [
+        650,
+        690
+      ],
+      "width_m": 2.0,
+      "connects": [
+        "south_corridor",
+        "accessible_female"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_accessible_lobby",
+      "wall_id": "accessible_north",
+      "gap_px": [
+        770,
+        805
+      ],
+      "width_m": 1.75,
+      "connects": [
+        "south_corridor",
+        "lobby"
+      ],
+      "confidence": "medium",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_accessible_between",
+      "wall_id": "accessible_mid",
+      "gap_px": [
+        990,
+        1025
+      ],
+      "width_m": 1.75,
+      "connects": [
+        "accessible_male",
+        "accessible_female"
+      ],
+      "confidence": "low",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_accessible_to_lobby",
+      "wall_id": "accessible_east",
+      "gap_px": [
+        990,
+        1025
+      ],
+      "width_m": 1.75,
+      "connects": [
+        "accessible_female",
+        "lobby"
+      ],
+      "confidence": "medium",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_lobby_upper",
+      "wall_id": "lobby_west",
+      "gap_px": [
+        865,
+        905
+      ],
+      "width_m": 2.0,
+      "connects": [
+        "south_corridor",
+        "lobby"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    },
+    {
+      "id": "d_lobby_accessible",
+      "wall_id": "lobby_west",
+      "gap_px": [
+        990,
+        1030
+      ],
+      "width_m": 2.0,
+      "connects": [
+        "accessible_female",
+        "lobby"
+      ],
+      "confidence": "high",
+      "default_state": "open",
+      "dynamic": true
+    }
+  ],
+  "columns": [
+    {
+      "id": "central_stair_elevator_core",
+      "rect_px": [
+        420,
+        825,
+        675,
+        945
+      ],
+      "kind": "solid_core"
+    },
+    {
+      "id": "column_01",
+      "center_px": [
+        15,
+        95
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_02",
+      "center_px": [
+        195,
+        95
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_03",
+      "center_px": [
+        355,
+        95
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_04",
+      "center_px": [
+        505,
+        95
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_05",
+      "center_px": [
+        675,
+        95
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_06",
+      "center_px": [
+        830,
+        95
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_07",
+      "center_px": [
+        975,
+        95
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_08",
+      "center_px": [
+        1120,
+        95
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_09",
+      "center_px": [
+        15,
+        250
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_10",
+      "center_px": [
+        195,
+        250
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_11",
+      "center_px": [
+        355,
+        250
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_12",
+      "center_px": [
+        505,
+        250
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_13",
+      "center_px": [
+        675,
+        250
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_14",
+      "center_px": [
+        830,
+        250
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_15",
+      "center_px": [
+        975,
+        250
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_16",
+      "center_px": [
+        1120,
+        250
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_17",
+      "center_px": [
+        15,
+        405
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_18",
+      "center_px": [
+        195,
+        405
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_19",
+      "center_px": [
+        355,
+        405
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_20",
+      "center_px": [
+        505,
+        405
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_21",
+      "center_px": [
+        675,
+        405
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_22",
+      "center_px": [
+        830,
+        405
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_23",
+      "center_px": [
+        975,
+        405
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_24",
+      "center_px": [
+        1120,
+        405
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_25",
+      "center_px": [
+        15,
+        560
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_26",
+      "center_px": [
+        195,
+        560
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_27",
+      "center_px": [
+        355,
+        560
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_28",
+      "center_px": [
+        505,
+        560
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_29",
+      "center_px": [
+        675,
+        560
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_30",
+      "center_px": [
+        830,
+        560
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_31",
+      "center_px": [
+        975,
+        560
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_32",
+      "center_px": [
+        1120,
+        560
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_33",
+      "center_px": [
+        195,
+        735
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_34",
+      "center_px": [
+        355,
+        735
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_35",
+      "center_px": [
+        505,
+        735
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_36",
+      "center_px": [
+        675,
+        735
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_37",
+      "center_px": [
+        830,
+        735
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_38",
+      "center_px": [
+        975,
+        735
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    },
+    {
+      "id": "column_39",
+      "center_px": [
+        1120,
+        735
+      ],
+      "size_px": [
+        14,
+        14
+      ],
+      "kind": "column"
+    }
+  ],
+  "dynamic_objects": [
+    {
+      "id": "moving_wall_01",
+      "type": "movable_partition",
+      "local_x_px": 900,
+      "y_range_px": [
+        160,
+        575
+      ],
+      "default_state": "retracted",
+      "note": "Use in Gazebo or a custom costmap layer."
+    }
+  ],
+  "artificial_boundaries": [
+    {
+      "id": "study_boundary",
+      "main_entry_gap_px": [
+        1000,
+        1065
+      ],
+      "note": "Artificial boundary for the selected simulation zone."
+    }
+  ]
+}
