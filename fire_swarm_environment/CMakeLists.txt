@@ -7,6 +7,8 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
+find_package(nav2_msgs REQUIRED)
+find_package(rclcpp_action REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
@@ -51,4 +53,20 @@ install(
   TARGETS local_hazard_publisher
   DESTINATION lib/${PROJECT_NAME}
 )
+
+add_executable(swarm_goal_dispatcher
+  src/swarm_goal_dispatcher.cpp
+)
+
+ament_target_dependencies(swarm_goal_dispatcher
+  rclcpp
+  rclcpp_action
+  nav2_msgs
+)
+
+install(TARGETS
+  swarm_goal_dispatcher
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 ament_package()
